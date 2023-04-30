@@ -1,0 +1,27 @@
+@startuml abstractFactory
+
+object "Client" as client
+object "AbstractFactory" as factory {
+    +createProductA()
+    +createProductB()
+}
+object "ConcreteFactory" as concretefact {
+    +createProductA()
+    +createProductB()
+}
+object "AbstractProduct" as product
+object "ProductA" as producta
+object "ProductB" as productb
+
+
+product <|-- producta
+product <|-- productb
+
+client --> product
+client --> factory
+
+factory <|-- concretefact
+concretefact ..> producta : <<creates>>
+concretefact ..> productb : <<creates>>
+	
+@enduml

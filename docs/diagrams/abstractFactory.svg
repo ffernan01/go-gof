@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="407px" preserveAspectRatio="none" style="width:312px;height:407px;background:#FFFFFF;" version="1.1" viewBox="0 0 312 407" width="312px" zoomAndPan="magnify"><defs/><g><g id="elem_client"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="54" x="149.5" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="156.5" y="22.5352">Client</text><line style="stroke:#181818;stroke-width:0.5;" x1="150.5" x2="202.5" y1="27.4883" y2="27.4883"/></g><g id="elem_factory"><rect fill="#F1F1F1" height="61.4648" style="stroke:#181818;stroke-width:0.5;" width="141" x="40" y="104.49"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="57" y="120.0252">AbstractFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="41" x2="180" y1="124.9783" y2="124.9783"/><ellipse cx="51" cy="138.7224" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="60" y="142.5134">createProductA()</text><ellipse cx="51" cy="155.2107" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="60" y="159.0017">createProductB()</text></g><g id="elem_concretefact"><rect fill="#F1F1F1" height="61.4648" style="stroke:#181818;stroke-width:0.5;" width="141" x="7" y="226.96"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="21.5" y="242.4952">ConcreteFactory</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="147" y1="247.4483" y2="247.4483"/><ellipse cx="18" cy="261.1924" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="27" y="264.9834">createProductA()</text><ellipse cx="18" cy="277.6807" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="27" y="281.4717">createProductB()</text></g><g id="elem_product"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="124" x="182.5" y="239.45"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="189.5" y="254.9852">AbstractProduct</text><line style="stroke:#181818;stroke-width:0.5;" x1="183.5" x2="305.5" y1="259.9383" y2="259.9383"/></g><g id="elem_producta"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="77" x="58" y="365.42"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="65" y="380.9552">ProductA</text><line style="stroke:#181818;stroke-width:0.5;" x1="59" x2="134" y1="385.9083" y2="385.9083"/></g><g id="elem_productb"><rect fill="#F1F1F1" height="36.4883" style="stroke:#181818;stroke-width:0.5;" width="75" x="199" y="365.42"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="206" y="380.9552">ProductB</text><line style="stroke:#181818;stroke-width:0.5;" x1="200" x2="273" y1="385.9083" y2="385.9083"/></g><!--MD5=[0e42437d955275bf3f71a0602c9b0b8a]
+reverse link product to producta--><g id="link_product_producta"><path codeLine="16" d="M230.49,295.29 C223.72,309.25 214.43,324.43 202.5,335.42 C183.54,352.9 157.04,364.71 135.28,372.15 " fill="none" id="product-backto-producta" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="224.3,292.96,238.63,277.34,237.17,298.48,224.3,292.96" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d8d38abf495cdcd6b612711350b4eb0]
+reverse link product to productb--><g id="link_product_productb"><path codeLine="17" d="M245.01,297.06 C244.9,309.33 244.5,322.96 243.5,335.42 C242.7,345.34 241.12,356.34 239.65,365.23 " fill="none" id="product-backto-productb" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="238.01,297.42,244.94,277.4,252.01,297.37,238.01,297.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ae3b3b36f57d4e94f53f214bf5cf0215]
+link client to product--><g id="link_client_product"><path codeLine="19" d="M181.72,43.95 C193.89,85.18 224.12,187.63 237.7,233.66 " fill="none" id="client-to-product" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="239.35,238.24,240.6432,228.4764,237.9369,233.4439,232.9694,230.7375,239.35,238.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[39b771dbb7e20f5733a341ba5c2ddfe4]
+link client to factory--><g id="link_client_factory"><path codeLine="20" d="M165.9,43.6 C156.69,58.65 143.09,80.91 131.66,99.6 " fill="none" id="client-to-factory" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="128.81,103.27,136.92,97.6817,131.4201,99.0054,130.0965,93.5055,128.81,103.27" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2977755780c4d019a65c72fde93e8e71]
+reverse link factory to concretefact--><g id="link_factory_concretefact"><path codeLine="22" d="M96.81,186.18 C93.06,199.9 89.1,214.35 85.75,226.57 " fill="none" id="factory-backto-concretefact" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="90.22,184.75,102.26,167.31,103.72,188.45,90.22,184.75" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2908f62c39552b7c778beac400ff6258]
+link concretefact to producta--><g id="link_concretefact_producta"><path codeLine="23" d="M46.98,288.66 C36.42,302.72 28.92,319.8 36.5,335.42 C41.53,345.77 50.04,354.54 59.1,361.6 " fill="none" id="concretefact-to-producta" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="62.58,364.93,57.7457,356.3493,58.568,361.946,52.9713,362.7684,62.58,364.93" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="37.5" y="331.9884">«creates»</text></g><!--MD5=[cb55203543e6ba8f2ef414ab06e49098]
+link concretefact to productb--><g id="link_concretefact_productb"><path codeLine="24" d="M115.15,288.73 C133.07,302.96 154.83,320.15 174.5,335.42 C185.53,343.99 197.74,353.32 208.39,361.42 " fill="none" id="concretefact-to-productb" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="212.16,365.04,207.4141,356.41,208.1789,362.0149,202.574,362.7798,212.16,365.04" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="175.5" y="331.9884">«creates»</text></g><!--MD5=[665437df66d5409b61820d1c7e48c3cc]
+@startuml abstractFactory
+
+object "Client" as client
+object "AbstractFactory" as factory {
+    +createProductA()
+    +createProductB()
+}
+object "ConcreteFactory" as concretefact {
+    +createProductA()
+    +createProductB()
+}
+object "AbstractProduct" as product
+object "ProductA" as producta
+object "ProductB" as productb
+
+
+product <|- - producta
+product <|- - productb
+
+client - -> product
+client - -> factory
+
+factory <|- - concretefact
+concretefact ..> producta : <<creates>>
+concretefact ..> productb : <<creates>>
+	
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 14:01:30 ART 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: AR
+--></g></svg>

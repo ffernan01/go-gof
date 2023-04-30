@@ -5,6 +5,6 @@ Go implementation of GoF design patterns
 
 ## Index by type
 
-- [Creational](./pkg/creational/README.md)
-- [Structural](./pkg/structural/README.md)
-- [Behavioral](./pkg/behavioral/README.md)
+- [Creational](./cmd/creational/README.md)
+- [Structural](./cmd/structural/README.md)
+- [Behavioral](./cmd/behavioral/README.md)
