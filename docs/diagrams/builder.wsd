@@ -1,0 +1,19 @@
+@startuml builder
+
+object "Director" as director {
+    +construct()
+}
+object "Builder" as builder {
+    +buildPart()
+}
+object "ConcreteBuilder" as concretebuilder {
+    +buildPart()
+}
+object "Product" as product
+
+
+director o-- builder
+builder <|-- concretebuilder
+concretebuilder ..> product : <<builds>>
+
+@enduml
